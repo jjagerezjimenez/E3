@@ -1,0 +1,81 @@
+Este plan de estudio de **20 días** organiza el contenido de la materia **Electrónica III** agrupando la teoría y los Trabajos Prácticos (TPs) correspondientes para llegar con una preparación sólida al examen final.
+
+---
+
+### **Fase 1: Fundamentos de RF, Realimentación y Osciladores (Días 1 a 5)**
+En esta primera etapa se cubren las bases circuitales y los bloques analógicos fundamentales.
+
+*   **Día 1: Unidad 1 y 2 – Introducción a RF y Ruido**
+    *   **Teoría:** Diagramas en bloques de transmisores y receptores, espectro electromagnético. Conceptos de ganancia, atenuación en dB, cálculo de cifra/factor de ruido y temperatura equivalente.
+    *   **Práctica:** Resolver ejercicios de **TP N° 1** (atenuación y apantallamiento) y **TP N° 2**.
+*   **Día 2: Unidad 3.1 – Realimentación Negativa**
+    *   **Teoría:** Topologías de realimentación (serie-serie, serie-paralelo, paralelo-serie, paralelo-paralelo), cálculo de ganancia realimentada \\(A_f\\), impedancias de entrada y salida.
+    *   **Práctica:** Deducciones y cálculo de parámetros en **TP N° 3**.
+*   **Día 3: Unidad 3.2 – Criterios de Estabilidad**
+    *   **Teoría:** Análisis de estabilidad en frecuencia, diagramas de Bode, margen de fase y de ganancia, técnicas de compensación.
+    *   **Práctica:** Ejercicios prácticos del **TP N° 4**.
+*   **Día 4: Unidad 4 – Osciladores Senoidales**
+    *   **Teoría:** Criterio de Barkhausen, osciladores LC, RC, Colpitts, Hartley, Clapp y de cristal. Estabilidad de frecuencia.
+    *   **Práctica:** **TP N° 5** y revisión de las mediciones del oscilador en **TPLAB N° 2**.
+*   **Día 5: Unidad 5 – Amplificadores de Potencia (BF y RF)**
+    *   **Teoría:** Etapas de potencia en Clases A, B, AB, C y D; niveles de excitación, rendimiento térmico y distorsión.
+    *   **Práctica:** **TP N° 6**.
+
+---
+
+### **Fase 2: Conversión de Frecuencia y Sistemas AM / ASK (Días 6 a 10)**
+Bloque dedicado al procesamiento de frecuencia y las modulaciones lineales de amplitud.
+
+*   **Día 6: Unidad 6 – Conversión de Frecuencia y Mezcladores**
+    *   **Teoría:** Mezcladores, multiplicadores de frecuencia, mezcladores de conmutación balanceados y armónicos no deseados.
+    *   **Práctica:** **TP N° 7** y análisis del multiplicador de 3ª armónica en **TPLAB N° 3**.
+*   **Día 7: Unidad 7 – Generación de AM, DBL, BLU y ASK**
+    *   **Teoría:** Moduladores balanceados, métodos de generación de BLU (filtros y desplazamiento de fase), espectro de frecuencias, índices de modulación y potencias.
+    *   **Práctica:** Ejercicios de modulación de amplitud en **TP N° 8** (Parte 1).
+*   **Día 8: Unidad 8 – Demodulación y Receptores AM**
+    *   **Teoría:** Detector de envolvente, detector de producto, arquitectura superheterodina, frecuencia imagen, Control Automático de Ganancia (CAG), selectividad y sensibilidad.
+    *   **Práctica:** Ejercicios de cálculo de rendimiento de detectores y recorte diagonal en **TP N° 8** (Parte 2).
+*   **Día 9: Repaso Integrador de AM / RF**
+    *   **Práctica:** Resolver problemas combinados de transmisores/receptores heterodinos y cálculo de etapas de RF.
+*   **Día 10: Autoevaluación del Bloque 1 y 2**
+    *   **Repaso activo:** Explicar verbalmente el funcionamiento en bloques de un receptor de AM superheterodino y deducir fórmulas clave de realimentación y ruido.
+
+---
+
+### **Fase 3: Modulaciones de Ángulo (FM/PM) y Comunicaciones Digitales (Días 11 a 15)**
+Etapa orientada a las modulaciones angulares y la transición hacia la transmisión digital.
+
+*   **Día 11: Unidad 9 – Conceptos de Señales FM / PM**
+    *   **Teoría:** Desviación de frecuencia, índice de modulación, espectro mediante funciones de Bessel y ancho de banda según la regla de Carson.
+    *   **Práctica:** **TP N° 9**.
+*   **Día 12: Unidad 10 – Moduladores y Transmisores de FM**
+    *   **Teoría:** Modulación directa (VCO) e indirecta (método Armstrong con multiplicadores), circuitos de preénfasis.
+    *   **Práctica:** **TP N° 10** (Cálculo de desviaciones y multiplicadores) y revisión de especificaciones del **TP Final** (Transmisor commercial de FM).
+*   **Día 13: Unidad 12 – Demoduladores y Receptores de FM**
+    *   **Teoría:** Demodulación por detector de pendiente, cuadratura, discriminador de frecuencia, detectores con PLL y deénfasis.
+    *   **Práctica:** Resolución final de problemas de receptores FM del **TP N° 10**.
+*   **Día 14: Comunicaciones Digitales – Banda Base (PAM, PWM, PPM, PCM)**
+    *   **Teoría:** Teorema de muestreo, retención, modulación PAM, PWM, PPM y conceptos de PCM.
+    *   **Práctica:** **TP N° 11** y simulaciones asociadas.
+*   **Día 15: Comunicaciones Digitales – Modulación por Portadora (ASK, FSK, PSK)**
+    *   **Teoría:** Modulación digital ASK, FSK (norma Bell 103), PSK, diagramas de bloques con PLL y ancho de banda requerido.
+    *   **Práctica:** Ejercicios de **TP N° 12**.
+
+---
+
+### **Fase 4: Consolidación, Laboratorios y Simulacros de Examen (Días 16 a 20)**
+
+*   **Día 16: Revisión de Laboratorios y TP Final**
+    *   Revisar los diseños prácticos de **TPLAB 1, 2 y 3** e integrar la arquitectura completa del **TP Final** de FM (VCO, multiplicadores y etapas de potencia).
+*   **Día 17: Práctica de Resoluciones Integrales**
+    *   Resolver nuevamente los ejercicios más complejos de los archivos de solución oficial (**Resol TP02 a TP12**).
+*   **Día 18: Simulacro de Examen Teórico**
+    *   Responder preguntas de desarrollo conceptual sin mirar la teoría (p. ej. diferencias entre heterodino y homodino, criterio de Barkhausen, método Armstrong, CAG).
+*   **Día 19: Simulacro de Examen Práctico**
+    *   Resolver un conjunto de 3 o 4 problemas típicos de examen (Ruido, Realimentación, AM/FM y Digital) bajo restricción de tiempo.
+*   **Día 20: Repaso Liviano y Fijación de Diagramas**
+    *   Repaso de esquemas en bloques de memoria (Transmisor Armstrong, Receptor Superheterodino AM/FM, PLL) y descanso adecuado previo al examen.
+
+---
+
+💡 **¿Te gustaría que prepare un conjunto de tarjetas de estudio (flashcards) o un cuestionario tipo examen (quiz) sobre las unidades de AM y FM para ir evaluándote durante el plan?**
